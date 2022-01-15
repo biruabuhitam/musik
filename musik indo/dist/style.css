@@ -297,11 +297,11 @@ div#header:after {
 }
 /*setingan kotak original tambahkan dibawah width 360 px height 500 px*/
 .mhn-player{
-	width: 360px; 
-	height: 500px; 
-	padding:15px;
+	width: 642px; 
+	height: 482px; 
+	padding:13px;
 	position:relative;
-	margin:35px auto 0;
+	margin:14px auto 0;
 	background:#faf6f67a;
 	box-shadow:0 16px 28px 0 rgba(0,0,0,.22),0 25px 55px 0 rgba(0,0,0,.21);
 
