@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Music Player</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+<!--menu-->
+<div id='main-nav'>
+    <div class='navisa' id='myNavix'>
+    <a class='closebtn' href='javascript:void(0)' onclick='closeNav()'>X</a>
+    <a href='../../material-music-player/dist/musikbarat.html'>Barat</a>
+	<a href='./musikindo.html'>Indonesia</a>
+	<a href='../../index.html'>Back</a>
+	</div>
+	<div class='topnav'>
+	<button class='tnav' onclick='openNav()'>&#8801;</button>
+	<span class='thome'><a expr:href='data:blog.homepageUrl'>Home</a></span>
+<!-- tambahkan element lain di sini -->
+    <div class='content'>
+	<!-- content -->
+	</div>
+	</div>
+<div class='content-cap-bottom cap-bottom'>
+	<div class='cap-left'/>
+	<div class='cap-right'/>
+	</div>
+	</div>
+	</div>
+	</div>
+<!---animasi bulat-->
+<div id="background-wrap">
+	<div class="bubble x1"></div>
+	<div class="bubble x2"></div>
+	<div class="bubble x3"></div>
+	<div class="bubble x4"></div>
+	<div class="bubble x5"></div>
+	<div class="bubble x6"></div>
+	<div class="bubble x7"></div>
+	<div class="bubble x8"></div>
+	<div class="bubble x9"></div>
+	<div class="bubble x10"></div>
+	<div class="bubble x1"></div>
+	</div>
+<!--latar mp3-->
+    <div class="mhn-player">
+<div class="album-art"></div>
+<div class="play-list">
+	<a href="#" class="play"
+		data-id="1"
+		data-album="Second Change"
+		data-artist="Noah"
+		data-title="Bintang di Surga"
+		data-albumart="../image/noah bintang di surga.jpg"
+		data-url="../music indo/noah bintang di surga.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="2"
+		data-album="menuju2030.blogspot.com"
+		data-artist="noah"
+		data-title="yang terdalam"
+		data-albumart="../image/noah yang terdalam.jpg"
+		data-url="../music indo/noah Yang Terdalam.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="3"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Prinsa Mandagie"
+		data-title="soundtrack layangan putus"
+		data-albumart="../image/prinsa mandagi sahabat dulu.jpg"
+		data-url="../music indo/Prinsa Mandagie Sahabat Dulu.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="4"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Judika"
+		data-title="BKATBBS"
+		data-albumart="../image/judika bagaimana.jpg"
+		data-url="../music indo/judika.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="5"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Sara Fajira"
+		data-title="Lathi"
+		data-albumart="../image/lathi.jpg"
+		data-url="../music indo/Weird Genius Lathi.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="6"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Ungu feat Lesti"
+		data-title="Bismillah Cinta"
+		data-albumart="../image/ungu.jpg"
+		data-url="../music indo/ungu feat lesti.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="7"
+		data-album ="menuju2030.blogspot.com"
+		data-artist="Felix"
+		data-title="Dan"
+		data-albumart="../image/nuface.jpeg"
+		data-url="../music indo/sheila on seven.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="8"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Noah"
+		data-title="Kala cinta menggoda"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/noah kala cinta menggoda.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="9"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Judika"
+		data-title="Putus atau Terus"
+		data-albumart="../image/judika putus atau terus.jpg"
+		data-url="../music indo/judika putus atau terus.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="10"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Lyodra"
+		data-title="Pesan terakhir"
+		data-albumart="../image/lyodra.jpg"
+		data-url="../music indo/lyodra pesan terakhir.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="11"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Noah"
+		data-title="Badai pasti berlalu"
+		data-albumart="../image/noah kala cinta menggoda.jpg"
+		data-url="../music indo/noah badai pasti berlalu.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="12"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Budi Doremi"
+		data-title="Melukis senja"
+		data-albumart="../image/budi melukis senja.jpg"
+		data-url="../music indo/budi melukis senja.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="13"
+		data-album="menuju2030.blogspot.com"
+		data-artist="naff"
+		data-title="Tak seindah cinta semestinya"
+		data-albumart="../image/naf.jpg"
+		data-url="../music indo/naff.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="14"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Blackout"
+		data-title="selalu ada"
+		data-albumart="../image/blackout.jpg"
+		data-url="../music indo/blackout selalu ada.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="15"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Revublik"
+		data-title="Aku takut "
+		data-albumart="../image/revublik.jpg"
+		data-url="../music indo/Revublik aku takut.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="16"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Virgoun"
+		data-title="surat cinta untuk starla"
+		data-albumart="../image/virgoun.jpg"
+		data-url="../music indo/virgoun surat cinta untuk starla.mp3"></a>
+		
+		<a href="#" class="play"
+		data-id="17"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Tic Band"
+		data-title="terbaik untukmu"
+		data-albumart="../image/tic.jpg"
+		data-url="../music indo/tic band.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="18"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Ungu"
+		data-title="Tercipta untukku"
+		data-albumart="../image/ungu2.jpg"
+		data-url="../music indo/ungu tercipta untukku.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="19"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Kunci"
+		data-title="tanpa rencana"
+		data-albumart="../image/kunci.jpg"
+		data-url="../music indo/kunci.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="20"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Astrid"
+		data-title="Tentang Rasa"
+		data-albumart="../image/astrid.jpg"
+		data-url="../music indo/astrid.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="21"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Geisha"
+		data-title="Cobalah mengerti"
+		data-albumart="../image/geisha.jpg"
+		data-url="../music indo/geisha.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="22"
+		data-album="menuju2030.blogspot.com"
+		data-artist="nindy"
+		data-title="cinta cuma satu"
+		data-albumart="../image/nindy.jpg"
+		data-url="../music indo/nindy.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="23"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Eren"
+		data-title="Takan pisah"
+		data-albumart="../image/eren.jpg"
+		data-url="../music indo/eren.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="24"
+		data-album="menuju2030.blogspot.com"
+		data-artist="cakra khan"
+		data-title="mencari cinta sejati"
+		data-albumart="../image/cakra khan.jpg"
+		data-url="../music indo/cakra khan.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="25"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Kerispatih"
+		data-title="Bukan aku"
+		data-albumart="../image/kerispatih.jpg"
+		data-url="../music indo/kerispatih.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="26"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Ungu"
+		data-title="Bila tiba"
+		data-albumart="../image/ungu.jpg"
+		data-url="../music indo/ungu bila tiba.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="27"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Opick"
+		data-title="Tiada duka yang abadi"
+		data-albumart="../image/opick.jpg"
+		data-url="../music indo/opick.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="28"
+		data-album="menuju2030.blogspot.com"
+		data-artist="utophia"
+		data-title="Antara ada dan tiada"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/utophia.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="29"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Joker"
+		data-title="Cinta sebenarya"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/cinta sebenarnya.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="30"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Lyla"
+		data-title="Lagi dan lagi"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/lyla.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="31"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Dewa"
+		data-title="Elang"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/elang.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="32"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Naff"
+		data-title="Terendap lara"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/naff terendap lara.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="33"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Joker"
+		data-title="Kapan kau kembali"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/joker kapan kau kembali.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="34"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Virza"
+		data-title="Aku Lelakimu"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/virza.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="35"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Keyla"
+		data-title="Terlalu cepat mencintaimu"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/keyla.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="36"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Utophia"
+		data-title="Serpihan hati"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/utophia serpihan hati.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="37"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Tahta"
+		data-title="Dia"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/tahta dia.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="38"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Second civil"
+		data-title="aku dan kenangan"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/Second sivil.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="39"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Ungu"
+		data-title="tempat terindah"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/ungu tempat terindah.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="40"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Base jam"
+		data-title="Bukan pujangga"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/base jam.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="41"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Utophia"
+		data-title="mencintai sampai mati"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/utophia2.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="41"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Nugie"
+		data-title="Burung geraja"
+		data-albumart="../image/.jpg"
+		data-url="../music indo/nugie.mp3"></a>
+
+</div>
+<div class="audio"></div>
+<div class="current-info">
+	<div class="song-artist"></div>
+	<div class="song-album"></div>
+	<div class="song-title"></div>
+</div>
+<div class="controls">
+<a href="#" class="toggle-play-list"><i class="fa fa-list-ul"></i></a>
+<div class="duration clearfix">
+	<span class="pull-left play-position"></span>
+	<span class="pull-right"><span class="play-current-time">00:00</span> / <span class="play-total-time">00:00</span></span>
+</div>
+<div class="progress"><div class="bar"></div></div>
+<div class="action-button">
+	<a href="#" class="prev"><i class="fa fa-step-backward"></i></a>
+	<a href="#" class="play-pause"><i class="fa fa-pp"></i></a>
+	<a href="#" class="stop"><i class="fa fa-stop"></i></a>
+	<a href="#" class="next"><i class="fa fa-step-forward"></i></a>
+	<input type="range" class="volume" min="0" max="1" step="0.1" value="0.5" data-css="0.5">
+</div>
+</div>
+    </div>
+<!-- partial -->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='https://enscrollplugin.com/releases/enscroll-0.6.1.min.js'></script><script  src="./script.js"></script>
+<!--script navigasi-->
+<center><p><h1>MusiK <i class="fa fa-play"> PlayeR</i></h1></p></center>
+	<script>
+    function openNav() {
+    document.getElementById("myNavix").style.width = "250px";
+    }
+    
+    function closeNav() {
+    document.getElementById("myNavix").style.width = "0";
+    }
+    </script>
+</body>
+</html>

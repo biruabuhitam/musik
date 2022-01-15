@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Music Player</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+<!--menu-->
+<div id='main-nav'>
+    <div class='navisa' id='myNavix'>
+    <a class='closebtn' href='javascript:void(0)' onclick='closeNav()'>X</a>
+    <a href='../dist/musikbarat.html'>Barat</a>
+	<a href='../../musik indo/dist/musikindo.html'>Indonesia</a>
+	<a href='../../index.html'>Back</a>
+	</div>
+	<div class='topnav'>
+	<button class='tnav' onclick='openNav()'>&#8801;</button>
+	<span class='thome'><a expr:href='data:blog.homepageUrl'>Menu</a></span>
+<!-- tambahkan element lain di sini -->
+    <div class='content'>
+	<!-- content -->
+	</div>
+	</div>
+<div class='content-cap-bottom cap-bottom'>
+	<div class='cap-left'/>
+	<div class='cap-right'/>
+	</div>
+	</div>
+	</div>
+	</div>
+<!---animasi bulat-->
+<div id="background-wrap">
+	<div class="bubble x1"></div>
+	<div class="bubble x2"></div>
+	<div class="bubble x3"></div>
+	<div class="bubble x4"></div>
+	<div class="bubble x5"></div>
+	<div class="bubble x6"></div>
+	<div class="bubble x7"></div>
+	<div class="bubble x8"></div>
+	<div class="bubble x9"></div>
+	<div class="bubble x10"></div>
+	<div class="bubble x1"></div>
+	</div>
+<!--latar mp3-->
+    <div class="mhn-player">
+<div class="album-art"></div>
+<div class="play-list">
+	<a href="#" class="play"
+		data-id="1"
+		data-album=""
+		data-artist="Dido"
+		data-title="White Flag"
+		data-albumart="../image/dido white flag.jpg"
+		data-url="../music/White Flag.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="2"
+		data-album="menuju2030.blogspot.com"
+		data-artist="The Cranberries"
+		data-title="Ode To My Family"
+		data-albumart="../image/cranberries ode to my family.jpg"
+		data-url="../music/The Cranberries - Ode To My Family.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="3"
+		data-album="menuju2030.blogspot.com"
+		data-artist="The Cranberries"
+		data-title="Dream"
+		data-albumart="../image/cranberries ode to my family.jpg"
+		data-url="../music/The Cranberries - Dreams.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="4"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Jewel"
+		data-title="Foolish Games"
+		data-albumart="../image/Jewel foolish games.jpg"
+		data-url="../music/Jewel  Foolish Games.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="5"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Sixpence none the richer"
+		data-title="There She Goes"
+		data-albumart="../image/sixpence.jpg"
+		data-url="../music/There She Goes.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="6"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Dido"
+		data-title="Thank You"
+		data-albumart="../image/dido white flag.jpg"
+		data-url="../music/Dido - Thank You.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="7"
+		data-album ="menuju2030.blogspot.com"
+		data-artist="Damien rice"
+		data-title="The Blower's Daughter"
+		data-albumart="../image/damien rice.jpg"
+		data-url="../music/Damien Rice The Blower's Daughter.mp3"></a>
+
+	<a href="#" class="play"
+		data-id="8"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Vertical Horizon"
+		data-title="Best I Ever Had"
+		data-albumart="../image/vertical horizon.jpg"
+		data-url="../music/Vertical Horizon - Best I Ever Had.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="9"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Seether"
+		data-title="Broken"
+		data-albumart="../image/seether-feat-amy-lee.jpeg"
+		data-url="../music/Seether - Broken ft. Amy Lee.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="10"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Jewel"
+		data-title="Hand"
+		data-albumart="../image/Jwel.jpg"
+		data-url="../music/Jewel Hands.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="11"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Alan Walker"
+		data-title="Faded"
+		data-albumart="../image/alan walker faded.jpg"
+		data-url="../music/Alan Walker - Faded.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="12"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Lewis Capaldi"
+		data-title="Someone You Loved"
+		data-albumart="../image/lewis capaldi.jpg"
+		data-url="../music/Lewis Capaldi - Someone You Loved.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="13"
+		data-album="menuju2030.blogspot.com"
+		data-artist="The Calling"
+		data-title="Wherever You Will Go"
+		data-albumart="../image/the calling.jpg"
+		data-url="../music/The Calling - Wherever You Will Go.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="14"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Jewel"
+		data-title="standing Still"
+		data-albumart="../image/Jwel.jpg"
+		data-url="../music/Jewel  Standing Still.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="15"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Ronan Keating"
+		data-title="You Say Nothing At All"
+		data-albumart="../image/ronan keating.jpg"
+		data-url="../music/Ronan Keating When You Say Nothing At All.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="16"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Richard Marx"
+		data-title="Right Here Waiting"
+		data-albumart="../image/richard marx.jpg"
+		data-url="../music/Richard Marx Right Here Waiting.mp3"></a>
+		
+		<a href="#" class="play"
+		data-id="17"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Sixpence none the richer"
+		data-title="Kiss Me"
+		data-albumart="../image/sixpence.jpg"
+		data-url="../music/Kiss Me There She Goes.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="18"
+		data-album="menuju2030.blogspot.com"
+		data-artist="My Chemical Romance"
+		data-title="I Don't Love You"
+		data-albumart="../image/chemical romance.jpg"
+		data-url="../music/My Chemical Romance - I Don't Love You.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="19"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Vanessa Carlton"
+		data-title="A Thousand Miles"
+		data-albumart="../image/vanessa carlton.jpg"
+		data-url="../music/Vanessa Carlton - A Thousand Miles.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="20"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Sum 41"
+		data-title="Pieces"
+		data-albumart="../image/sum 41.jpg"
+		data-url="../music/Sum 41 - Pieces.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="21"
+		data-album="menuju2030.blogspot.com"
+		data-artist="The Cranberries"
+		data-title="When You're Gone"
+		data-albumart="../image/cranberries ode to my family.jpg"
+		data-url="../music/The Cranberries - When You're Gone.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="22"
+		data-album="menuju2030.blogspot.com"
+		data-artist="UU"
+		data-title="With Or Without You."
+		data-albumart="../image/u2.jpg"
+		data-url="../music/U2 - With Or Without You.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="23"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Superman"
+		data-title="Five for Fighting"
+		data-albumart="../image/superman.jpg"
+		data-url="../music/Five for Fighting - Superman.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="24"
+		data-album="menuju2030.blogspot.com"
+		data-artist="pearljam"
+		data-title="Black"
+		data-albumart="../image/pearljam.jpg"
+		data-url="../music/Pearl Jam - Black.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="25"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Bryan Adams"
+		data-title="Heaven"
+		data-albumart="../image/boyce.jpg"
+		data-url="../music/Bryan Adams-heaven.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="26"
+		data-album="menuju2030.blogspot.com"
+		data-artist=""
+		data-title="cant help falling in love"
+		data-albumart="../image/.jpg"
+		data-url="../music/Can't Help Falling In Love.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="27"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Alexandra Porat"
+		data-title="Hanya Rindu"
+		data-albumart="../image/mom.jpg"
+		data-url="../music/Hanya Rindu - Andmesh.mp3"></a>
+		
+		<a href="#" class="play"
+		data-id="28"
+		data-album="menuju2030.blogspot.com"
+		data-artist="pearl jam"
+		data-title="Last kiss"
+		data-albumart="../image/.jpg"
+		data-url="../music/pearl jam last kiss.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="29"
+		data-album="menuju2030.blogspot.com"
+		data-artist="scorpion"
+		data-title="Still loving you"
+		data-albumart="../image/.jpg"
+		data-url="../music/scorpion still loving you.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="30"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Ugly kid joe"
+		data-title="every thing about u"
+		data-albumart="../image/.jpg"
+		data-url="../music/ugly kid joe.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="31"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Cold play"
+		data-title="The Scientist"
+		data-albumart="../image/.jpg"
+		data-url="../music/Coldplay - The Scientist.mp3"></a>
+		
+		<a href="#" class="play"
+		data-id="32"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Creed"
+		data-title="One last breath"
+		data-albumart="../image/.jpg"
+		data-url="../music/creed.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="33"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Cold play"
+		data-title="in my place"
+		data-albumart="../image/.jpg"
+		data-url="../music/cold play in my place.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="34"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Bon jovi"
+		data-title="Bon jovi"
+		data-albumart="../image/.jpg"
+		data-url="../music/bon jovi bed of rose.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="35"
+		data-album="menuju2030.blogspot.com"
+		data-artist="3 doors down"
+		data-title="here without you"
+		data-albumart="../image/.jpg"
+		data-url="../music/3 doors down.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="36"
+		data-album="menuju2030.blogspot.com"
+		data-artist="4 non blondes"
+		data-title="whats up"
+		data-albumart="../image/.jpg"
+		data-url="../music/4 non blondes.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="37"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Maroom 5"
+		data-title="wont to go home without u"
+		data-albumart="../image/.jpg"
+		data-url="../music/maroon 5.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="38"
+		data-album="menuju2030.blogspot.com"
+		data-artist="muse"
+		data-title="sing for absolutiom"
+		data-albumart="../image/.jpg"
+		data-url="../music/muse sing for absolution.mp3"></a>
+
+		<a href="#" class="play"
+		data-id="39"
+		data-album="menuju2030.blogspot.com"
+		data-artist="Ronan keating"
+		data-title="Tomorrow never come"
+		data-albumart="../image/.jpg"
+		data-url="../music/ronan keating tomorrow never come.mp3"></a>
+		
+		<a href="#" class="play"
+		data-id="40"
+		data-album="menuju2030.blogspot.com"
+		data-artist="muse"
+		data-title="unintended"
+		data-albumart="../image/.jpg"
+		data-url="../music/muse unintended.mp3"></a>
+		
+		
+</div>
+<div class="audio"></div>
+<div class="current-info">
+	<div class="song-artist"></div>
+	<div class="song-album"></div>
+	<div class="song-title"></div>
+</div>
+<div class="controls">
+<a href="#" class="toggle-play-list"><i class="fa fa-list-ul"></i></a>
+<div class="duration clearfix">
+	<span class="pull-left play-position"></span>
+	<span class="pull-right"><span class="play-current-time">00:00</span> / <span class="play-total-time">00:00</span></span>
+</div>
+<div class="progress"><div class="bar"></div></div>
+<div class="action-button">
+	<a href="#" class="prev"><i class="fa fa-step-backward"></i></a>
+	<a href="#" class="play-pause"><i class="fa fa-pp"></i></a>
+	<a href="#" class="stop"><i class="fa fa-stop"></i></a>
+	<a href="#" class="next"><i class="fa fa-step-forward"></i></a>
+	<input type="range" class="volume" min="0" max="1" step="0.1" value="0.5" data-css="0.5">
+</div>
+</div>
+    </div>
+<!-- partial -->
+<center><p><h1>MusiK <i class="fa fa-play"> PlayeR</i></h1></p></center>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='https://enscrollplugin.com/releases/enscroll-0.6.1.min.js'></script><script  src="./script.js"></script>
+<!--script navigasi-->
+	<script>
+    function openNav() {
+    document.getElementById("myNavix").style.width = "250px";
+    }
+    
+    function closeNav() {
+    document.getElementById("myNavix").style.width = "0";
+    }
+    </script>
+</body>
+</html>
