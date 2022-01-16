@@ -311,11 +311,11 @@ div#header:after {
 	background:url(../../logo\ tv.gif) no-repeat center / 100%;
 }
 .mhn-player .album-art{
-	width:330px;
-	height:330px;
+	width:521px;
+	height:332px;
 	overflow:hidden;
 	position:relative;
-	border:12px solid #000;
+	border:5px solid #000;
 }
 .mhn-player .album-art img{
 	width:100%;
