@@ -25,20 +25,20 @@ vara[0] = new Vara(
       fontSize: fontSize.small
     },
     {
-      text:"Hai welcome to my musik player.",
+      text:"tidak ada yang abadi di dunia ini.",
       y: 10,
       x: posX,
       duration: 4000
     },
     {
-      text: "Mudahan mudahan playlist ini bisa menghibur,",
+      text: "yang dekat menjauh yang jauh pergi atau sebaliknya,",
       id: "sphinx",
       x: posX,
       delay: 1000,
       duration: 4500
     },
     {
-      text: "...kalau aku suka musik alternatif kalau kamu apa? klik..to next page",
+      text: "...karena kehidupan adalah ketidakpastian dan semua adalah tentang waktu? klik..to next page",
       id: "end",
       color: "#3f51b5",
       delay: 1000,
@@ -104,13 +104,13 @@ vara[2] = new Vara(
       fontSize: fontSize.small
     },
     {
-      text: "jika tidak ada bahu untuk bersandar",
+      text: "jika tidak ada bahu lagi untuk bersandar",
       y: 40,
       x: posX,
       duration: 4000
     },
     {
-      text: "masih ada tikar untuk bersujud,",
+      text: "masih ada lantai untuk bersujud,",
       y: 20,
       x: posX,
       duration: 3500
