@@ -38,7 +38,7 @@ vara[0] = new Vara(
       duration: 4500
     },
     {
-      text: "...karena kehidupan adalah ketidakpastian dan semua adalah tentang waktu? klik..to next page",
+      text: "semua adalah tentang waktu? klik..to next page",
       id: "end",
       color: "#3f51b5",
       delay: 1000,
